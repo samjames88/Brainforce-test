@@ -1,0 +1,110 @@
+@media screen and (max-width: 1200px) {
+
+#main{ width: 100%; }
+
+
+#header{
+	height: 250px;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#group403{
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#phones{
+	display: block;
+	width: 100%;
+	margin: 0 auto;	
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+
+#frame28{
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+#page { display: none;  }
+
+#group432{
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 10px;
+	}
+
+#button{
+	margin: 0 auto;
+	display: block;
+	width: 100%;
+	}
+
+#chat{
+	position: absolute;
+	display: block;
+	width: 95%;
+	text-align: center;
+	margin: 1850px 0px 30px 0px;
+	height: 364px
+}
+
+#footer{
+	height: 1450px;
+	margin: 0 auto;
+	width: 100%;
+	margin-top: 130px;
+}
+
+#frame24{
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+#footMenu{
+
+	width: 40%;
+}
+
+#address{
+	width: 60%;
+}
+
+#map{
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 50px;
+	margin-left: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+	}
+
+
+/*div{border: 1px solid cyan;}*/
+
