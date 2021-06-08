@@ -62,7 +62,7 @@
 	width: 95%;
 	text-align: center;
 	margin: 1850px 0px 30px 0px;
-	height: 364px
+	height: 364px;
 }
 
 
@@ -93,25 +93,18 @@
 #map{
 	display: block;
 	margin: 0 auto;
-	text-align: center;
-	margin-top: 50px;
-	margin-left: 10px;
+	margin-top: 30px;
+	margin-left: 30px;
 
 }
 
-
-
-
-
-
-
-
-
-
+#main{
+	height: 4200px;
+}
 
 
 	}
 
 
-/*div{border: 1px solid cyan;}*/
+
 

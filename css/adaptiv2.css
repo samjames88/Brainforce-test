@@ -1,0 +1,143 @@
+@media screen and (max-width: 960px) {
+
+#header{
+		height: 450px;
+}
+
+#frame28{
+	height: 175px;
+}
+	
+#frame28 ul li {
+	display: block;
+	width: 100%;
+	margin: 10px auto;}
+
+#title{	
+	display: none;}
+
+#group485{
+		margin: 0 auto;
+	text-align: center;
+	width: 100%;
+	height: 170px;}
+
+.frame95{
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	height: 820px;
+
+}
+.rectangle{
+	width: 100%;
+	margin: 0px auto;
+}
+.frame94{	display: block;
+	width: 100%;
+	margin: 10px auto;
+	text-align: center;
+}
+
+.frame68{	display: block;
+	width: 100%;
+	margin: 10px auto;
+}
+
+
+.frame90{
+	display: block;
+	width: 100%;
+	height: 100px;
+	background: #F4F4F4;
+	border-radius: 8px;
+	padding: 23px 30px;
+	margin: 5px 0;}
+
+.frameTxt{
+	display: block;
+	width: 100%;}
+
+.frameTxt2{
+	display: block;
+	margin: -5px 0 0 -30px;
+	width: 110%;
+	padding: 40px 30px;
+
+	}
+
+.btnClose{
+	position: absolute;
+	margin: -15px -5px 0 0;}
+
+
+#chat{
+	margin: 2450px 0px 30px 0px;
+	height: 364px;}
+
+#footer{
+	height: 1450px;
+	margin: 0 auto;
+	width: 100%;
+	margin-top: 730px;
+}
+
+
+#map {
+	width: 100%;
+		margin-left: 0;
+}
+
+#bg{
+	
+	opacity: 0;}
+
+}
+
+
+
+
+@media screen and (max-width: 610px) {
+
+.frame95{	height: 1100px;  }
+
+#chat{	margin: 3180px 0px 30px 0px;
+	height: 264px;}
+
+#footer{
+	height: 1450px;
+	margin-top: 1380px;}
+
+#main{
+	height: 5630px;
+}	
+#map {
+	margin-left: 0;
+}
+
+}
+
+
+@media screen and (max-width: 460px) {
+.frame95{	height: 1300px; }
+
+#chat{	margin: 3930px 0px 30px 0px;
+	height: 264px;}
+
+#footer{
+	height: 1450px;
+	margin-top: 2200px;}
+
+#main{
+	height: 5630px;
+}
+
+
+
+
+
+
+}
+
+
