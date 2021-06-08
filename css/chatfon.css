@@ -1,0 +1,113 @@
+#chat{
+	display: inline;
+	float: left;
+	width: 447px;
+	height: 764px;
+	margin-left: 20px;
+	margin-top: -100px;
+	margin-bottom: -50px;
+	background: #E0E0E0;
+	border-radius: 8px;	}
+#chat h4{
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 124%;
+	text-align: center;
+	margin-top: 157px;}
+#bg{
+	width: 943px;
+	height: 1355px;
+	margin-top: 750px;
+	margin-left: 469px;
+	background: url(../img/bg.jpg) no-repeat center;
+	background-size: cover;}
+#footer{
+	width: 1440px;
+	height: 803px;
+	margin-left: -28px;
+	margin-top: -200px;
+	background: #333333;
+	padding: 75px 30px;}
+#footTxt{
+	display: inline;
+	float: left;
+	font-size: 16px;
+	line-height: 130%;
+	color: #333333;
+	margin-bottom: -10px;}
+#footLink{
+	display: inline;
+	float: right;
+	font-size: 16px;
+	line-height: 130%;
+	color: #333333;
+	margin-bottom: -10px;}
+#frame24{
+	display: inline;
+	float: left;
+	width: 565px;
+	height: 643px;}
+#map{
+	display: inline;
+	float: left;
+	width: 795px;
+	height: 643px;
+	margin-left: 20px;
+	border: 2px solid #828282;
+	border-radius: 12px;}
+#map iframe{
+	border: 2px solid #828282;
+	border-radius: 12px;}
+#ooo{
+	height: 76px;
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 38px;
+	color: #E0E0E0;}
+#footPhones{
+	margin-top: 10px;
+	height: 402px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;}
+#footMenu{
+	margin-top: 10px;
+	display: inline;
+	float: left;
+	width: 230px;
+	height: 160px;}
+#footMenu p{
+	margin-top: 0px;
+	margin-bottom: 20px;}	
+#footMenu a{
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 150%;
+	color: #FFFFFF;}
+#address{
+	display: inline;
+	float: left;
+	width: 330px;
+	height: 160px;	}
+.ff{height: 50px;}
+.ff p{
+	margin: 0 0 8px 0;
+	font-size: 16px;
+	line-height: 20px;
+	color: #E0E0E0;}
+.ff a{
+	font-size: 16px;
+	line-height: 130%;
+	color: #FFFFFF;}
+.p2{margin-left: 40px;}
+#address p{
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 130%;
+	color: #FFFFFF;	}
+#address p a{
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 130%;
+	color: #FFFFFF;	}
+

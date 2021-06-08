@@ -1,0 +1,120 @@
+* {box-sizing: border-box;}
+body{
+	margin: 0 auto;
+	background: #E5E5E5;
+	font-family: Geometria;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 23px;
+	letter-spacing: 2%;
+	color: #333333;}
+/*div{border: 1px solid cyan;}*/
+a{	text-decoration: none;
+	color: #333333;}
+#main{
+	margin: 0 auto;
+	width: 1440px;
+	height: 3071px;
+	background: #FFFFFF;
+	padding: 0 28px;}
+#header{
+	height: 100px;}
+#group403{	
+	width: 45px;
+	height: 64.51px;
+	margin-top: 16px;
+	display: inline;
+	float: left;
+	margin-left: 3px;}
+#vector{
+	height: 52.8px;
+	margin-bottom: 11.71px;}
+#phones{
+	display: inline;
+	float: left;
+	margin-top: 22px;
+	margin-left: 70.09px;
+	width: 163px;
+	height: 56px;}
+#phones p{margin: 0 0 10px 0;}
+#frame28{
+	display: inline;
+	float: left;
+	margin-top: 38px;
+	margin-left: 70px;
+	width: 708px;
+	height: 23px;}
+#frame28 ul{
+	margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;}
+#frame28 ul li {
+	display: inline;
+	margin-right: 40px;}	
+#group432{
+	display: inline;
+	float: left;
+	width: 77px;
+	height: 24px;
+	margin-top: 38px;
+	margin-left: 58px;}
+#group432 p{
+	margin: 0;
+	border-bottom: 1px dashed #333333;}
+#button{
+	display: inline;
+	float: left;
+	margin-top: 28px;
+	margin-left: 36px;
+	width: 148px;
+	height: 43px;}
+#button button{
+	border: 1px solid #333333;
+	border-radius: 8px;
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	text-align: center;
+	font-size: 15px;
+	line-height: 130%;}
+#button button:hover{
+	background-color: #828282;
+	color: white;}
+#button button:active{
+	background-color: #FFE568;
+	color: #333333;}
+#title{	margin-top: 67px;}
+#group485{
+	width: 447px;
+	height: 102px;}
+#group485 h2{
+	margin: 0;
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 132%;}	
+#group485 p{
+	font-size: 16px;
+	line-height: 130%;
+	color: #828282;
+	margin-top: 20px;}
+.page{	color: #828282;}
+#page{
+	position: absolute;
+	width: 83px;
+	height: 10px;
+	background-color: #FFDB2D;
+	border-radius: 0px 0px 8px 8px;
+	margin-top: -38px;
+	margin-left: 435px;
+}
+
+
+
+
+
+
+
+
+
+
