@@ -109,8 +109,17 @@ a{	text-decoration: none;
 	margin-left: 435px;
 }
 
+#phones p a:hover {
+color: #FFDB2D;
+}
 
+#frame28 ul li a:hover {
+color: #FFDB2D;
+}
 
+#frame28 ul li a:active{
+color: #FFFFFF;
+}
 
 
 
