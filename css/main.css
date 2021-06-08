@@ -1,5 +1,5 @@
 * {box-sizing: border-box;}
-body{width: 100%;
+body{
 	margin: 0 auto;
 	background: #E5E5E5;
 	font-family: Geometria;
@@ -9,7 +9,6 @@ body{width: 100%;
 	line-height: 23px;
 	letter-spacing: 2%;
 	color: #333333;}
-/*div{border: 1px solid cyan;}*/
 a{	text-decoration: none;
 	color: #333333;}
 #main{

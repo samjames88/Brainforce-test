@@ -1,5 +1,7 @@
 @media screen and (max-width: 960px) {
 
+#bg{display: none;}
+
 #header{
 		height: 450px;
 }
@@ -27,7 +29,7 @@
 	width: 100%;
 	margin: 0 auto;
 	text-align: center;
-	height: 820px;
+	height: 740px;
 
 }
 .rectangle{
@@ -80,18 +82,17 @@
 	height: 1450px;
 	margin: 0 auto;
 	width: 100%;
-	margin-top: 730px;
+	margin-top: 2930px;
 }
-
 
 #map {
 	width: 100%;
 		margin-left: 0;
 }
 
-#bg{
-	
-	opacity: 0;}
+#main{
+	height: 5050px;
+}
 
 }
 
@@ -100,17 +101,17 @@
 
 @media screen and (max-width: 610px) {
 
-.frame95{	height: 1100px;  }
+.frame95{	height: 900px;  }
 
-#chat{	margin: 3180px 0px 30px 0px;
+#chat{	margin: 2680px 0px 30px -10px;
 	height: 264px;}
 
 #footer{
 	height: 1450px;
-	margin-top: 1380px;}
+	margin-top: 3050px;}
 
 #main{
-	height: 5630px;
+	height: 5170px;
 }	
 #map {
 	margin-left: 0;
@@ -120,17 +121,17 @@
 
 
 @media screen and (max-width: 460px) {
-.frame95{	height: 1300px; }
+.frame95{	height: 1100px; }
 
-#chat{	margin: 3930px 0px 30px 0px;
+#chat{	margin: 3130px 0px 30px -15px;
 	height: 264px;}
 
 #footer{
 	height: 1450px;
-	margin-top: 2200px;}
+	margin-top: 3420px;}
 
 #main{
-	height: 5630px;
+	height: 5600px;
 }
 
 
