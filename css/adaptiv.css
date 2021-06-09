@@ -1,7 +1,9 @@
 @media screen and (max-width: 1200px) {
 
-#main {width: 100%;
-margin: 0 auto;}
+#main {
+	width: 100%;
+	margin: 0 auto;}
+
 #header{flex-direction: column;}
 
 #page{display: none;}
@@ -19,7 +21,7 @@ margin: 0 auto;}
 	margin-top: 0px;
 }
 
-.txtBox {	flex-direction: column;}
+.txtBox { flex-direction: column; }
 
 
 #chat {
@@ -29,7 +31,8 @@ margin: 0 auto;}
 	height: 400px;
 }
 
-#footer {width: 100%;
+#footer {
+	width: 100%;
 	padding: 75px 70px 30px 30px;}
 
 #footMenu {
@@ -41,13 +44,16 @@ margin: 0 auto;}
 }
 
 
-#frame24 {width: 100%;
-text-align: center;}
-#map{display: block;
-	margin-top: 50px;
+#frame24 {
 	width: 100%;
+	text-align: center;}
+	
+#map{
+	display: block;
+	margin-top: 50px;
+	width: 100%;}
 
-}
+#content{	background: none; }
 
 }
 
