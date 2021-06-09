@@ -205,6 +205,11 @@ background: url(../img/closeOrange.svg) no-repeat;
 	line-height: 130%;
 }
 
+#map iframe {
+	width: 100%;
+	height: 100%;
+}
+
 
 
 
