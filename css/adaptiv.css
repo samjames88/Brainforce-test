@@ -1,17 +1,53 @@
 @media screen and (max-width: 1200px) {
 
+#main {width: 100%;
+margin: 0 auto;}
+#header{flex-direction: column;}
 
-#header{
+#page{display: none;}
+.page{border-bottom: 2px solid #FFDB2D;}
+
+#menu ul li {
+	display: block;
+	margin: 10px auto;
+	text-align: center;}
+
+#sc {margin-top: 160px;}
+
+#content {
 	flex-direction: column;
-	align-items: center;
-	padding: 15px 30px;
+	margin-top: 0px;
+}
+
+.txtBox {	flex-direction: column;}
+
+
+#chat {
+	margin-top: -70px;
 	margin-bottom: 20px;
+	width: 100%;
+	height: 400px;
+}
+
+#footer {width: 100%;
+	padding: 75px 70px 30px 30px;}
+
+#footMenu {
+	width: 49%;
+}
+
+#address {
+	width: 50%;
 }
 
 
+#frame24 {width: 100%;
+text-align: center;}
+#map{display: block;
+	margin-top: 50px;
+	width: 100%;
 
-
-
+}
 
 }
 
