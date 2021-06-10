@@ -92,7 +92,7 @@ a{	text-decoration: none;
 	display: flex;
 	flex-wrap: wrap;
 	background: url(../img/bg.jpg) no-repeat;
-	background-position: right bottom -24%;
+	background-position: right bottom;
 }
 
 #left{
