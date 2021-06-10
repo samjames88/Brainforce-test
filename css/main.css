@@ -182,7 +182,7 @@ h3{
 	margin: 5px 0;
 	display: flex;
 	flex-wrap: wrap;
-		transition: 1s;
+		transition: 0.5s;
 
 }
 
@@ -191,7 +191,7 @@ h3{
 	font-size: 0px;
 	line-height: 150%;
 	flex:96%;
-		transition: 1s;
+		transition: 0.5s;
 }
 
 .hide {
@@ -202,8 +202,7 @@ h3{
 .button{
 flex: 4%;
 background: url(../img/openBlack.svg) no-repeat;
-height: 19px;
-background-image: 
+height: 19px; 
 }
 .button:active {
 background: url(../img/openOrange.svg) no-repeat;
@@ -214,7 +213,7 @@ background: url(../img/openOrange.svg) no-repeat;
 	background: #F4F4F4;
 	font-size: 0px;
 	line-height: 130%;
-		transition: 1s;
+		transition: 0.5s;
 }
 
 #map iframe {

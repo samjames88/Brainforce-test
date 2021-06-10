@@ -8,12 +8,6 @@ const frameTxt = document.getElementsByClassName('frameTxt');
 window.onload = function() {
 frameTxt[0].style.fontSize = '16px';
 button[0].style.backgroundImage = 'url(img/closeBlack.svg)';
-
-frameTxt[4].style.fontSize = '16px';
-button[4].style.backgroundImage = 'url(img/closeBlack.svg)';
-
-frameTxt[8].style.fontSize = '16px';
-button[8].style.backgroundImage = 'url(img/closeBlack.svg)';
 }
 
 
