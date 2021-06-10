@@ -105,6 +105,7 @@ a{	text-decoration: none;
 
 #group485{
 	width: 447px;
+	margin-bottom: 70px;
 }
 #group485 h2{
 	margin: 0;
@@ -151,7 +152,7 @@ color: #FFFFFF;
 
 .leftTxt{
 	flex: 24%;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 
 .rightTxt{
