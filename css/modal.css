@@ -59,7 +59,14 @@
       border: 1px solid rgba(0, 0, 0, .2);
       border-radius: .3rem;
       outline: 0;
-    }
+      padding: 0 28px 0 28px;
+      width: 447px;
+      height: 359px;
+      background: url(../img/modal.png) no-repeat;
+      background-size: cover;
+      font-family: Geometria;
+
+          }
 
     @media (min-width: 768px) {
       .modal-content {
@@ -82,29 +89,30 @@
       -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
       justify-content: space-between;
-      padding: 15px;
-      border-bottom: 1px solid #eceeef;
+
+      height: 100px;
     }
 
     .modal-title {
       margin-top: 0;
       margin-bottom: 0;
-      line-height: 1.5;
-      font-size: 1.25rem;
-      font-weight: 500;
+font-weight: 500;
+font-size: 20px;
+line-height: 124%;
+color: black;
     }
 
     /* свойства для кнопки "Закрыть" */
     .close {
       float: right;
-      font-family: sans-serif;
-      font-size: 24px;
+      font-size: 34px;
       font-weight: 700;
       line-height: 1;
-      color: #000;
       text-shadow: 0 1px 0 #fff;
       opacity: .5;
       text-decoration: none;
+      margin: -70px -20px 0 0;
+      color: black;
     }
 
     /* свойства для кнопки "Закрыть" при нахождении её в фокусе или наведении */
@@ -125,4 +133,32 @@
       flex: 1 1 auto;
       padding: 15px;
       overflow: auto;
+    }
+
+    input {
+      width: 330px;
+      height: 43px;
+      background: #F4F4F4;
+      border: 1px solid #828282;
+      border-radius: 8px;
+      margin: 0px 0 30px -10px;
+      font-size: 15px;
+      line-height: 130%;
+      color: #828282;
+      padding-left: 20px;
+      font-family: Geometria;
+font-style: normal;
+font-weight: normal;
+    }
+
+    #zakaz {
+      width: 223px;
+      height: 43px;
+      background: #FFDB2D;
+      border-radius: 8px;
+      color: black;
+      padding-left: 0; 
+      margin-top: 10px;
+      margin-bottom: 0;
+
     }
