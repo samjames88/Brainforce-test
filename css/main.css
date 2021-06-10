@@ -151,6 +151,7 @@ color: #FFFFFF;
 
 .leftTxt{
 	flex: 24%;
+	margin-bottom: 20px;
 }
 
 .rightTxt{
