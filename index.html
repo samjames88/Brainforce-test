@@ -7,7 +7,8 @@
 
 		<link rel="stylesheet" type="text/css" href="css/main.css">
 		<link rel="stylesheet" type="text/css" href="css/chatfon.css">
-		<link rel="stylesheet" type="text/css" href="css/adaptiv.css">		
+		<link rel="stylesheet" type="text/css" href="css/adaptiv.css">
+		<link rel="stylesheet" type="text/css" href="css/modal.css">				
 		<link rel="stylesheet" type="text/css" href="fonts/stylesheet.css">
 		<link rel="icon" href="favicon.ico" type="image/x-icon">	
 	</head>
@@ -40,8 +41,27 @@
 
 		<div id="sc">
 			<div id="search"><p>Поиск</p></div>
-			<div id="consult"><button>Консультация</button></div>
+			<div id="consult"><a href="#openModal"><button>Консультация</button></a></div>
 		</div>
+
+
+    <div id="openModal" class="modal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title">Название</h3>
+            <a href="#close" title="Close" class="close">×</a>
+          </div>
+          <div class="modal-body">
+            Содержимое модального окна...
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
 
 	</div>
 
@@ -252,5 +272,6 @@
 	
 	
 <script src="js/script.js"></script>
+<script src="js/modal.js"></script>
 </body>
 </html>
