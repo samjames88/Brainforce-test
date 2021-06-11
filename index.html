@@ -8,9 +8,9 @@
 		<link rel="stylesheet" type="text/css" href="css/main.css">
 		<link rel="stylesheet" type="text/css" href="css/chatfon.css">
 		<link rel="stylesheet" type="text/css" href="css/adaptiv.css">
-		<link rel="stylesheet" type="text/css" href="css/modal.css">				
+		<link rel="stylesheet" type="text/css" href="css/modal.css">			
 		<link rel="stylesheet" type="text/css" href="fonts/stylesheet.css">
-		<link rel="icon" href="favicon.ico" type="image/x-icon">	
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
 	</head>
 
 <body>
@@ -54,12 +54,14 @@
           </div>
           <div class="modal-body">
 
-            <form>
-            	<input type="text" name="name" placeholder="Имя">
+            <form action="#formFinish">
+            	<input maxlength="13" type="text" required name="name" placeholder="Имя">
             	<br>
-            	<input type="text" name="phone" placeholder="Телефон">
-            	<br>
-            	<input id="zakaz" type="button" name="zakaz" value=" Заказать консультацию">
+  	<input type="tel" name="tel" maxlength="17" 
+  	pattern="\+375\s[0-9]{2}\s[0-9]{3}-[0-9]{2}-[0-9]{2}" 
+  	required placeholder="Телефон в формате +375 29 111-22-33">
+	<br>
+            	<input class="form_submit" type="submit" name="zakaz" value=" Заказать консультацию">
             </form>
 
           </div>
@@ -67,8 +69,11 @@
       </div>
     </div>
 
-
-
+    <div id="formFinish" class="modal">
+		<span class="formFinish_title">Спасибо!</span>
+		<span class="formFinish_text">Скоро с вами свяжется консультант для уточнения деталей</span>
+		<a href="#close" title="Close" class="close">×</a>
+	</div>
 
 
 	</div>
@@ -274,8 +279,8 @@
 	</div>
 
 </div>
-	
+
 <script src="js/script.js"></script>
-<script src="js/modal.js"></script>
+
 </body>
 </html>

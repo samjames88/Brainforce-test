@@ -223,3 +223,28 @@ background: url(../img/openOrange.svg) no-repeat;
 }
 
 
+#formFinish {
+	margin: 0 auto;
+	width: 1147px;
+	height: 333px;
+	text-align: center;
+	padding: 100px 370px 118px 370px;
+	font-weight: 500;
+	background: url(../img/answer.jpg) no-repeat;
+}
+
+#formFinish span {
+	display: block;
+}
+
+.formFinish_title{
+	font-size: 36px;
+	line-height: 124%;
+	margin-bottom: 20px;
+}
+
+
+.formFinish_text{
+	font-size: 20px;
+	line-height: 124%;
+}
