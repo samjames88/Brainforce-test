@@ -82,8 +82,12 @@ a{	text-decoration: none;
 	width: 77px;
 	margin: 0;
 	border-bottom: 1px dashed #333333;}
-#title{
+.title{
 	margin: 40px 30px 10px 30px;
+}
+
+h1 {
+	display: none;
 }
 
 #content{
