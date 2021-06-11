@@ -1,35 +1,14 @@
 
-#bg{
-	width: 943px;
-	height: 1355px;
-	margin-top: 750px;
-	margin-left: 469px;
-	background: url(../img/bg.jpg) no-repeat center;
-	background-size: cover;}
-#footer{
+.footer{
 	background: #333333;
 	padding: 75px 30px;
-margin-top: 0px;}
-#footTxt{
-	display: inline;
-	float: left;
-	font-size: 16px;
-	line-height: 130%;
-	color: #333333;
-	margin-bottom: -10px;}
-#footLink{
-	display: inline;
-	float: right;
-	font-size: 16px;
-	line-height: 130%;
-	color: #333333;
-	margin-bottom: -10px;}
-#frame24{
+	margin-top: 0px;}
+.footer_info{
 	display: inline;
 	float: left;
 	width: 565px;
 	height: 643px;}
-#map{
+.map{
 	display: inline;
 	float: left;
 	width: 795px;
@@ -37,36 +16,36 @@ margin-top: 0px;}
 	margin-left: 20px;
 	border: 2px solid #828282;
 	border-radius: 12px;}
-#map iframe{
+.map iframe{
 	border: 2px solid #828282;
 	border-radius: 12px;}
-#ooo{
+.footTitle{
 	height: 76px;
 	font-weight: bold;
 	font-size: 30px;
 	line-height: 38px;
 	color: #E0E0E0;}
-#footPhones{
+.footPhones{
 	margin-top: 10px;
 	height: 402px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;}
-#footMenu{
+.footMenu{
 	margin-top: 10px;
 	display: inline;
 	float: left;
 	width: 230px;
 	height: 160px;}
-#footMenu p{
+.footMenu p{
 	margin-top: 0px;
 	margin-bottom: 20px;}	
-#footMenu a{
+.footMenu a{
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 150%;
 	color: #FFFFFF;}
-#address{
+.address{
 	display: inline;
 	float: left;
 	width: 330px;
@@ -82,19 +61,19 @@ margin-top: 0px;}
 	line-height: 130%;
 	color: #FFFFFF;}
 .p2{margin-left: 40px;}
-#address p{
+.address p{
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 130%;
 	color: #FFFFFF;	}
-#address p a{
+.address p a{
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 130%;
 	color: #FFFFFF;	}
 
-#copy{
-	margin: -5px 30px 20px 30px;
+.copyRight{
+	margin: 10px 30px;
 	display: flex;
 	justify-content: space-between;
 }
