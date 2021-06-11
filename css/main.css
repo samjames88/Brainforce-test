@@ -92,7 +92,7 @@ a{	text-decoration: none;
 	display: flex;
 	flex-wrap: wrap;
 	background: url(../img/bg.jpg) no-repeat;
-	background-position: right bottom;
+	background-position: right bottom -6%;
 }
 
 #left{
@@ -152,7 +152,7 @@ color: #FFFFFF;
 
 .leftTxt{
 	flex: 24%;
-	margin-bottom: 10px;
+	margin: 10px 0;
 }
 
 .rightTxt{
@@ -189,7 +189,7 @@ h3{
 
 .frameTxt{
 	font-weight: 500;
-	font-size: 0px;
+	font-size: 16px;
 	line-height: 150%;
 	flex:96%;
 		transition: 0.5s;
@@ -197,7 +197,6 @@ h3{
 
 .hide {
 	transition: 1s;
-	padding: 0 30px;
 }
 
 .button{
@@ -210,7 +209,7 @@ background: url(../img/openOrange.svg) no-repeat;
 }
 
 .frameTxt2{
-	margin: 0 50px 2px 10px;
+	margin: 0 50px 2px 30px;
 	background: #F4F4F4;
 	font-size: 0px;
 	line-height: 130%;

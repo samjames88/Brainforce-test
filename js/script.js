@@ -1,16 +1,14 @@
 
 const akk = document.querySelectorAll('.TEXT');
 const button = document.getElementsByClassName('button');
-const frameTxt = document.getElementsByClassName('frameTxt');
+const frameTxt2 = document.getElementsByClassName('frameTxt2');
 
 
 
 window.onload = function() {
-frameTxt[0].style.fontSize = '16px';
 button[0].style.backgroundImage = 'url(img/closeBlack.svg)';
+frameTxt2[0].style.fontSize = '16px';
 }
-
-
 
 
 akk.forEach(function (btn,index) {
@@ -18,15 +16,13 @@ akk.forEach(function (btn,index) {
 if (e.currentTarget.classList.contains('hide'))
 	{
 e.currentTarget.classList.remove('hide');
-frameTxt[index].style.fontSize = '16px';
-document.getElementsByClassName('frameTxt2')[index].style.fontSize = '16px';
+frameTxt2[index].style.fontSize = '16px';
 button[index].style.backgroundImage = 'url(img/closeBlack.svg)';
 	}
 else 
 	{
 e.currentTarget.classList.add('hide');
-frameTxt[index].style.fontSize = '0px';
-document.getElementsByClassName('frameTxt2')[index].style.fontSize = '0px';
+frameTxt2[index].style.fontSize = '0px';
 button[index].style.backgroundImage = 'url(img/openBlack.svg)';
 	}
 }
