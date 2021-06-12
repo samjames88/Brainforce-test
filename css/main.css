@@ -11,8 +11,6 @@ body{
 	color: #333333;}
 a {	text-decoration: none;
 	color: #333333;}
-.phones p {
-	margin: 7px auto;}
 .main{
 	display: flex;
 	flex-direction: column;
@@ -24,10 +22,12 @@ a {	text-decoration: none;
 	justify-content: space-between;
 	align-items: center;
 	padding: 15px 30px;
-	margin-bottom: 20px;}
-.logoPhones {display: flex;}
-.phones {margin-left: 70px;}
-.sc {display: flex;}
+	margin-bottom: 20px;}	
+.logoPhones {display: flex;}	
+.header_phones {margin-left: 70px;}
+.header_phones p {margin: 7px auto;}
+.header_phones p a:hover {color: #FFDB2D;}
+.searchConsult {display: flex;}
 .search {margin-top: 10px;}
 .consult {
 	margin-left: 62px;
@@ -57,8 +57,8 @@ a {	text-decoration: none;
 .menu ul li {
 	display: inline;
 	margin-right: 40px;}
-.page{	color: #828282;}
-.poiner{
+.nowPage{color: #828282;}
+.menu_pointer{
 	position: absolute;
 	width: 83px;
 	height: 10px;
@@ -79,8 +79,8 @@ h1 {display: none;}
 	flex-wrap: wrap;
 	background: url(../img/bg.jpg) no-repeat;
 	background-position: right bottom -6%;}
-.left{flex: 67%;}
-.right {flex: 32%;}
+.content_leftColumn{flex: 67%;}
+.content_rightColumn{flex: 32%;}
 .content_title{
 	width: 447px;
 	margin-bottom: 70px;}
@@ -93,7 +93,6 @@ h1 {display: none;}
 	font-size: 16px;
 	line-height: 130%;
 	color: #828282;}
-.phones p a:hover {color: #FFDB2D;}
 .menu ul li a:hover {color: #FFDB2D;}
 .menu ul li a:active{
 color: #FFFFFF;}
@@ -109,20 +108,20 @@ color: #FFFFFF;}
 	line-height: 124%;
 	text-align: center;
 	padding-top: 157px;}
-.txtBox{
+.content_txtBox{
 	display: flex;
 	flex-wrap: wrap;
 	margin: 30px 20px 70px 0;}
-.leftTxt{
+.content_leftTxtBox{
 	flex: 24%;
 	margin: 10px 0;}
-.rightTxt{flex: 74%;}
+.content_rightTxtBoxt{flex: 74%;}
 h3{
 	font-weight: 500;
 	font-size: 24px;
 	line-height: 30px;
 	margin: 0;}
-.rectangle{
+.orangeLine{
 	border: 1px solid #FFDB2D;
 	width: 193px;
 	height: 2px;
@@ -156,9 +155,6 @@ h3{
 	font-size: 0px;
 	line-height: 130%;
 	transition: 0.5s;}
-.map iframe {
-	width: 100%;
-	height: 100%;}
 #formFinish {
 	margin: 0 auto;
 	width: 1147px;
@@ -175,7 +171,3 @@ h3{
 .formFinish_text{
 	font-size: 20px;
 	line-height: 124%;}
-
-
-
-

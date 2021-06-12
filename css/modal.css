@@ -77,9 +77,9 @@
       }
    }
 
-  @media (max-width: 1200px) {
+  @media (max-width: 1000px) {
      #formFinish {
-      width: 500px;
+      width: 600px;
       padding: 100px 20px;}
 
    #formFinish .close {
