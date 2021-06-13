@@ -136,25 +136,36 @@ h3{
 	margin: 5px 0;
 	display: flex;
 	flex-wrap: wrap;
-	transition: 0.5s;}
+	cursor: pointer;}
 .frameTxt{
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 150%;
-	flex:96%;
-	transition: 0.5s;}
-.hide {transition: 1s;}
-.button{
-	flex: 4%;
-	background: url(../img/openBlack.svg) no-repeat;
-	height: 19px; }
-.button:active {background: url(../img/openOrange.svg) no-repeat;}
+	flex:96%;}
 .frameTxt2{
 	margin: 0 60px 2px 10px;
 	background: #F4F4F4;
 	font-size: 0px;
 	line-height: 130%;
 	transition: 0.5s;}
+.button{
+	flex: 4%;
+	background: url(../img/openBlack.svg) no-repeat;
+	height: 19px; }
+.button:active {
+	background: url(../img/openOrange.svg) no-repeat;}	
+
+
+.show .frameTxt2{
+	font-size: 16px;}
+
+
+.show .button{
+	background: url(../img/closeBlack.svg) no-repeat;
+ }
+
+
+
 #formFinish {
 	margin: 0 auto;
 	width: 1147px;
