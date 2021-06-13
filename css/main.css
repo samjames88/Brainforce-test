@@ -78,7 +78,7 @@ h1 {display: none;}
 	display: flex;
 	flex-wrap: wrap;
 	background: url(../img/bg.jpg) no-repeat;
-	background-position: right bottom -6%;}
+	background-position: right bottom;}
 .content_leftColumn{flex: 67%;}
 .content_rightColumn{flex: 32%;}
 .content_title{
@@ -154,18 +154,10 @@ h3{
 	height: 19px; }
 .button:active {
 	background: url(../img/openOrange.svg) no-repeat;}	
-
-
 .show .frameTxt2{
 	font-size: 16px;}
-
-
 .show .button{
-	background: url(../img/closeBlack.svg) no-repeat;
- }
-
-
-
+	background: url(../img/closeBlack.svg) no-repeat; }
 #formFinish {
 	margin: 0 auto;
 	width: 1147px;
