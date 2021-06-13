@@ -1,11 +1,11 @@
 
 const akk = document.querySelectorAll('.TEXT');
 
-akk.forEach(function (btn,index) {
+akk.forEach(function (btn) {
 
  	btn.onclick = function (e) {
 
-        for (let i=0; i<12; i++)
+        for (let i=0; i<akk.length; i++)
             akk[i].classList.remove('show'); 
 
         e.currentTarget.classList.add('show');
