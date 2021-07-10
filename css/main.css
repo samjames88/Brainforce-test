@@ -12,22 +12,34 @@ body{
 a {	text-decoration: none;
 	color: #333333;}
 .main{
-	display: flex;
+	  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 	flex-direction: column;
 	width: 1440px;
 	margin: 0 auto;
 	background: #FFFFFF;}
 .header{
-	display: flex;
+	  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 	justify-content: space-between;
 	align-items: center;
 	padding: 15px 30px;
 	margin-bottom: 20px;}	
-.logoPhones {display: flex;}	
+.logoPhones {  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;}	
 .header_phones {margin-left: 70px;}
 .header_phones p {margin: 7px auto;}
 .header_phones p a:hover {color: #FFDB2D;}
-.searchConsult {display: flex;}
+.searchConsult {  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;}
 .search {margin-top: 10px;}
 .consult {
 	margin-left: 62px;
@@ -75,7 +87,10 @@ a {	text-decoration: none;
 h1 {display: none;}
 .content{
 	padding: 0 30px;
-	display: flex;
+	  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 	flex-wrap: wrap;
 	background: url(../img/bg.jpg) no-repeat;
 	background-position: right bottom;}
@@ -109,7 +124,10 @@ color: #FFFFFF;}
 	text-align: center;
 	padding-top: 157px;}
 .content_txtBox{
-	display: flex;
+	  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 	flex-wrap: wrap;
 	margin: 30px 20px 70px 0;}
 .content_leftTxtBox{
@@ -134,7 +152,10 @@ h3{
 	border-radius: 8px;
 	padding: 12px 30px;
 	margin: 5px 0;
-	display: flex;
+	  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 	flex-wrap: wrap;
 	cursor: pointer;}
 .frameTxt{

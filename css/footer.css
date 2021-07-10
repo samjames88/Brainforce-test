@@ -12,7 +12,10 @@
 .footPhones{
 	margin-top: 10px;
 	height: 402px;
-	display: flex;
+	  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 	flex-direction: column;
 	justify-content: space-around;}
 .footPhones a:hover {color: #FFDB2D;}
@@ -77,6 +80,9 @@
 	height: 100%;}
 .copyRight{
 	margin: 10px 30px;
-	display: flex;
+	  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 	justify-content: space-between;}
 .copyRight a:hover {color: #FFDB2D;}
